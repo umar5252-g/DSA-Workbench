@@ -178,6 +178,53 @@ int main (){
 // }
 //  cout<<"maximum: "<<mx<<endl;
 //  cout<<"minimun: "<<mn<<endl;
+
+
+// string str = "hello";
+// int palindrom = false;
+// int end = str.length()-1;
+// int st = 0;
+// while(st<end){
+// if(str[st]!= str[end]){
+//   palindrom = false;
+//   break;
+// }
+//   st++;
+//   end--;
+// }
+// if(palindrom) cout<<"palindrome"<<endl;
+// else {
+//   cout<<"not palindrome"<<endl;
+// }
+
+
+
+    // string str = "education";
+    // int count = 0;
+
+    // for(char ch : str) {
+
+    //     if(ch == 'a' || ch == 'e' || ch == 'i' ||
+    //        ch == 'o' || ch == 'u' ||
+    //        ch == 'A' || ch == 'E' || ch == 'I' ||
+    //        ch == 'O' || ch == 'U') {
+    //         count++;
+    //     }
+    // }
+    // cout << "Vowels: " << count;
+
+   string str = "aaabbb";
+    int freq[256] = {0};
+    for(char ch: str){
+      freq[ch]++;
+    }
+
+    for(int i=0; i<256; i++){
+      if(freq[i]>0){
+        cout<<char(i)<<"-->"<<freq[i]<<endl;
+      }
+    }
+
   return 0;
 }
 //g++ p1.cpp && ./a.exe
