@@ -55,8 +55,39 @@ int SingleElementInSortedArray(vector<int>arr){
   return -1;
 }
 
-int main (){
+class Student {
+  public:
+  string name;
+  int age;
+  Student(string n, int a){
+   name = n;
+   age = a;
+  }
+  void display(){
+    cout<<"name: "<<name<<endl;
+    cout<<"age:  "<<age<<endl;
+  }
 
+};
+int main (){
+    Student s1("umar", 21);
+    s1.display();
+  // string str = "hello my name is umar";
+  // string ans = "";
+  // for(char ch: str){
+  //   if(ch !=' '){
+  //     ans += ch;
+  //   }
+  // }
+  // cout<<ans<<endl;
+
+  // string str = "hello";
+  // for(char &ch: str){
+  //   if(ch >='a' && ch<='z'){
+  //     ch = ch-32;
+  //   }
+  // }
+  // cout<<str<<endl;
 
   return 0;
 }

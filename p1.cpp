@@ -82,6 +82,8 @@ int factorial (int n){
   int fact = 1;
   if(n==1) return fact;
   return n* factorial(n-1);
+
+  
 }
 
 int fib(int n){
@@ -213,17 +215,19 @@ int main (){
     // }
     // cout << "Vowels: " << count;
 
-   string str = "aaabbb";
-    int freq[256] = {0};
-    for(char ch: str){
-      freq[ch]++;
-    }
+  //  string str = "aaabbb";
+  //   int freq[256] = {0};
+  //   for(char ch: str){
+  //     freq[ch]++;
+  //   }
 
-    for(int i=0; i<256; i++){
-      if(freq[i]>0){
-        cout<<char(i)<<"-->"<<freq[i]<<endl;
-      }
-    }
+  //   for(int i=0; i<256; i++){
+  //     if(freq[i]>0){
+  //       cout<<char(i)<<"-->"<<freq[i]<<endl;
+  //     }
+  //   }
+
+  cout<<fib(5)<<endl;
 
   return 0;
 }
