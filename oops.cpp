@@ -45,28 +45,33 @@ using namespace std;
 class Student{
   public:
    string name;
-  double cgpa ;
+  double* cgpaptr ;
 
 
   Student(string name, double cgpa){
     this->name = name;
-    this->cgpa = cgpa;
+    cgpaptr = new double;
+    *cgpaptr = cgpa;
   }
   
   Student(Student &Orgobj){
     this->name = Orgobj.name;
-    this->cgpa = Orgobj.cgpa;
+    this->cgpaptr = Orgobj.cgpaptr;
   }
   
   void displayInfo(){
     cout<<"name: "<<name<<endl;
-    cout<<"cgpa: "<<cgpa<<endl;
+    cout<<"cgpa: "<<*cgpaptr<<endl;
   }
   
 
 };
 int main (){
   Student s1("kumar", 3.1);
+ 
+  Student s2(s1);
+   s1.displayInfo();
+   *(s2.cgpaptr) = 3.9;
   s1.displayInfo();
 
   return 0;
