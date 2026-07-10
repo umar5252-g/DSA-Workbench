@@ -56,7 +56,8 @@ class Student{
   
   Student(Student &Orgobj){
     this->name = Orgobj.name;
-    this->cgpaptr = Orgobj.cgpaptr;
+    cgpaptr = new double;
+    *cgpaptr = *Orgobj.cgpaptr;
   }
   
   void displayInfo(){
