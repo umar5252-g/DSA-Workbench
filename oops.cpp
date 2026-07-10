@@ -21,13 +21,13 @@ this->dep = dep;
 this->subject = subject;
 this->salary = salary;
 }
-Teacher (Teacher&Orobj){
-  cout<<"I am a custom copy constuctor\n";
-this->age = Orobj.age;
-this->name = Orobj.name;
-this->dep = Orobj.dep;
-this->subject = Orobj.subject;
-this->salary = Orobj.salary;
+Teacher (Teacher &Orobj){
+ cout<<"this is a custom copy constructor"<<endl;
+ this->name = Orobj.name;
+ this->dep = Orobj.dep;
+ this->subject = Orobj.subject;
+ this->age = Orobj.age;
+ this->salary = Orobj.salary;
 }
 
 void changeDep(string dep){
@@ -44,7 +44,9 @@ void getInfo(){
 int main (){
 Teacher t1("umar khan", "computer science", "DSA", 23, 50000);
 Teacher t2(t1);
-t2.changeDep("software engineering");
+// t2.getInfo();
+t1.changeDep("software engineering");
+t1.getInfo();
 t2.getInfo();
   
   return 0;
