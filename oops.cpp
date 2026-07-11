@@ -54,26 +54,22 @@ class Student{
     *cgpaptr = cgpa;
   }
   
-  Student(Student &Orgobj){
-    this->name = Orgobj.name;
-    cgpaptr = new double;
-    *cgpaptr = *Orgobj.cgpaptr;
-  }
+ 
   
   void displayInfo(){
     cout<<"name: "<<name<<endl;
     cout<<"cgpa: "<<*cgpaptr<<endl;
   }
   
+  ~Student(){
+    cout<<"this is a distructor"<<endl;
+  }
 
 };
 int main (){
   Student s1("kumar", 3.1);
- 
-  Student s2(s1);
    s1.displayInfo();
-   *(s2.cgpaptr) = 3.9;
-  s1.displayInfo();
+ 
 
   return 0;
 }
