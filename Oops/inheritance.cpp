@@ -20,7 +20,7 @@ class Person {
   }
 };
 
-class Student: public Person {
+class Student: protected Person {
     public: 
     int rollNo;
   
