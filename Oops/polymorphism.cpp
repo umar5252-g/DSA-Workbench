@@ -19,7 +19,7 @@ class Parent{
 };
 class child : public Parent{
   public:
-  void getInfo(){
+   virtual void getInfo(){
     cout<<"this is child class\n";
   }
 };
