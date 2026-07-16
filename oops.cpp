@@ -62,14 +62,14 @@ class Student{
   }
   
   ~Student(){
-    cout<<"this is a distructor"<<endl;
+    cout<<"hi! i deleted everything \n";
+    delete cgpaptr;
   }
 
 };
 int main (){
   Student s1("kumar", 3.1);
    s1.displayInfo();
- 
-
+cout<<"this is the end of the main functoin\n";
   return 0;
 }
