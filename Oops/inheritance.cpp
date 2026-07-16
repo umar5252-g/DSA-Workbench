@@ -44,18 +44,22 @@ class Student: public Person {
     
 };
 
-class Graduate : public Student{
+class Teacher{
   public:
-    string ReasearchField;
+  string subjectAssigned ;
+};
+
+class Ta : public Student, public Teacher{
+
   
 };
 int main (){ ;
   // Student s1("umar Khan", 21,231184);
   // s1.displayInfo();
-    Graduate umar;
-    umar.name = "umar Khan";
-    umar.rollNo = 231153;
-    umar.ReasearchField = "Computer Science";
+    // Graduate umar;
+    // umar.name = "umar Khan";
+    // umar.rollNo = 231153;
+    // umar.ReasearchField = "Computer Science";
 
   return 0;
 }
