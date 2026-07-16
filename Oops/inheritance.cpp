@@ -5,12 +5,19 @@ class Person {
   public:
   string name;
   int age;
+
+  Person(){
+    cout<<"this is Person class constructor"<<endl;
+  }
 };
 
 class Student: public Person {
     public: 
     int rollNo;
-
+  
+    Student(){
+      cout<<"this is student class constructor"<<endl;
+    }
     
 };
 int main (){ ;
