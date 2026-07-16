@@ -9,6 +9,9 @@ class Person {
   Person(){
     cout<<"this is Person class constructor"<<endl;
   }
+  ~Person(){
+    cout<<"Person destructor\n";
+  }
 };
 
 class Student: public Person {
@@ -16,7 +19,11 @@ class Student: public Person {
     int rollNo;
   
     Student(){
-      cout<<"this is student class constructor"<<endl;
+      cout<<"this is student class constructor"<<endl; // parent consstructor is called first
+    }
+
+    ~Student(){
+      cout<<"Student Destructor\n"; // Child Destructor is called first
     }
     
 };
