@@ -11,8 +11,21 @@ class Print {
   }
 };
 
+class Parent{
+  public:
+  void getInfo(){
+    cout<<"this is Parent class\n";
+  }
+};
+class child : public Parent{
+  public:
+  void getInfo(){
+    cout<<"this is child class\n";
+  }
+};
+
 int main (){ ;
-  Print p1;
-  p1.print('a'); 
+  child c1;
+  c1.getInfo();
   return 0;
 }
