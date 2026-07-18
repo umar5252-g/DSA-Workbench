@@ -45,6 +45,19 @@ class List {
      tail = newNode;
     }
   }
+
+  void pop_front(){
+    if(head == NULL){
+      cout<<"LL is empty\n";
+      return;
+    }
+    Node* temp = head;
+    head = head->next;
+    temp->next = NULL;
+
+    delete temp;
+
+  }
   void print_all(){
     Node* temp = head;
     while(temp !=  NULL){
@@ -61,6 +74,8 @@ int main (){
   ll.push_front(2);
   ll.push_front(3);
   ll.push_back(4);
+
+  ll.pop_front();
 
   ll.print_all();
   
