@@ -68,8 +68,8 @@ class List {
       temp = temp->next;
     }
     temp->next = NULL;
-    temp = tail;
     delete temp;
+    tail = temp;
    
     
   }
