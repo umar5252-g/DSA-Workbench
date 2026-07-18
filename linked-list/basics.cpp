@@ -56,7 +56,22 @@ class List {
     temp->next = NULL;
 
     delete temp;
+  }
 
+  void pop_back(){
+    if(head == NULL){
+      cout<<"LL is empty\n";
+      return;
+    }
+    Node* temp = head;
+    while(temp->next != tail){
+      temp = temp->next;
+    }
+    temp->next = NULL;
+    temp = tail;
+    delete temp;
+   
+    
   }
   void print_all(){
     Node* temp = head;
