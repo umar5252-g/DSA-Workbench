@@ -33,6 +33,18 @@ class List {
       head = newNode;
     }
   }
+
+  void push_back(int val){
+    Node* newNode = new Node(val);
+
+    if(tail == NULL){
+      head = tail = newNode;
+    }
+    else{
+     tail->next = newNode;
+     tail = newNode;
+    }
+  }
   void print_all(){
     Node* temp = head;
     while(temp !=  NULL){
