@@ -90,7 +90,7 @@ int main (){
   ll.push_front(3);
   ll.push_back(4);
 
-  ll.pop_front();
+  ll.pop_back();
 
   ll.print_all();
   
