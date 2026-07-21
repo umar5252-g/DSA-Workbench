@@ -85,7 +85,7 @@ class List {
 
 };
 
-bool deleteCycle(Node* head){
+bool detectCycleInLL(Node* head){
     
    Node *slow = head;
   Node* fast = head;
