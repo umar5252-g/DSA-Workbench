@@ -1,29 +1,36 @@
 #include<iostream>
 using namespace std;
 
-class A{
-   public:
-   int x ; 
-   void intX(){
-    x = x+1;
-   }
-};
+// class A{
+//    public:
+//    int x ; 
+//    void intX(){
+//     x = x+1;
+//    }
+// };
 // void fun(){
 //   static int x = 0 ;
 //   cout<<"x: "<<x<<endl;
 //   x++;
 // }
 
-int main (){ ;
-  A obj1;
-  A obj2;
+class ABC{
+  public: 
+  ABC(){
+    cout<<"constructor\n";
+  }
 
-  obj1.x = 100;
-  obj2.x = 200;
+  ~ABC(){
+    cout<<"destructor\n";
+  }
 
-  cout<<obj1.x<<endl;
-  cout<<obj2.x<<endl;
+};
+int main (){ 
 
+  if(true){
+    static ABC obj;
+  }
 
+  cout<<"end of the main function\n";
   return 0;
 }
