@@ -46,6 +46,24 @@ class List {
     }
   }
 
+  void insert(int val, int pos){
+  
+    if(pos<0){
+      cout<<"invalid possition"<<endl;
+    }
+    if(pos==0){
+      push_front(val);
+    }
+      Node*temp = head;
+      Node* newNode = new Node(val);
+    for(int i=0; i<pos-1; i++){
+      temp = temp->next;
+    }
+    newNode->next = temp->next;
+    temp->next = newNode;
+
+  }
+
   void pop_front(){
     if(head == NULL){
       cout<<"LL is empty\n";
