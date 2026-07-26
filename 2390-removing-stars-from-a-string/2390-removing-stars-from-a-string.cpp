@@ -3,9 +3,9 @@ public:
     string removeStars(string s) {
         if(s.length()==0)return s;
         stack<char> str;
-        for (int i = 0; i < s.size(); i++) {
-            if (s[i] != '*') {
-                str.push(s[i]);
+        for (char ch: s) {
+            if (ch != '*') {
+                str.push(ch);
             } else {
                 str.pop();
             }
