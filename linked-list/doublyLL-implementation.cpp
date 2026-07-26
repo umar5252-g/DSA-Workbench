@@ -21,6 +21,22 @@ class DoublyList{
   DoublyList(){
     head = tail = NULL;
   }
+
+  void push_front(int val){
+    Node * newNode = new Node(val);
+
+    if(head == NULL) head = tail = newNode;
+    else {
+      newNode->next = head;
+      head->prev = newNode;
+      newNode = head;
+    }
+  }
+
+  void print_all(){
+    Node* tempNode = head;
+    
+  }
 };
 
 int main (){ ;
