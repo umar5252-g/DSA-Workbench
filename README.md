@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/umar5252-g/DSA-Workbench/tree/master/0003-longest-substring-without-repeating-characters) |
+| [2390-removing-stars-from-a-string](https://github.com/umar5252-g/DSA-Workbench/tree/master/2390-removing-stars-from-a-string) |
 ## Sliding Window
 |  |
 | ------- |
@@ -41,4 +42,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/umar5252-g/DSA-Workbench/tree/master/0004-median-of-two-sorted-arrays) |
+## Stack
+|  |
+| ------- |
+| [2390-removing-stars-from-a-string](https://github.com/umar5252-g/DSA-Workbench/tree/master/2390-removing-stars-from-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2390-removing-stars-from-a-string](https://github.com/umar5252-g/DSA-Workbench/tree/master/2390-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
