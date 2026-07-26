@@ -29,15 +29,15 @@ class DoublyList{
     else {
       newNode->next = head;
       head->prev = newNode;
-      newNode = head;
+      head = newNode;
     }
   }
 
   void print_all(){
     Node* tempNode = head;
-    cout<<"NULL<=>";
+    cout<<"NULL <=> ";
     while(tempNode != NULL){
-      cout<<tempNode->data<<"<=>\n";
+      cout<<tempNode->data<<" <=> ";
       tempNode = tempNode->next;
     }
     cout<<"NULL"<<endl;
@@ -47,7 +47,13 @@ class DoublyList{
 };
 
 int main (){ ;
-  
+  DoublyList ll ;
+  ll.push_front(1);
+  ll.push_front(2);
+  ll.push_front(3);
+  ll.push_front(4);
+
+  ll.print_all();
 
   return 0;
 }
