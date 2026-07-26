@@ -35,7 +35,14 @@ class DoublyList{
 
   void print_all(){
     Node* tempNode = head;
-    
+    cout<<"NULL<=>";
+    while(tempNode != NULL){
+      cout<<tempNode->data<<"<=>\n";
+      tempNode = tempNode->next;
+    }
+    cout<<"NULL"<<endl;
+
+
   }
 };
 
