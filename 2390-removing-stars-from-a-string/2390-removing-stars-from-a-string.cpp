@@ -1,7 +1,7 @@
 class Solution {
 public:
     string removeStars(string s) {
-        if(s.length()==0)return s;
+    
         stack<char> str;
         for (char ch: s) {
             if (ch != '*') {
