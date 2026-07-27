@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/umar5252-g/DSA-Workbench/tree/master/0004-median-of-two-sorted-arrays) |
+| [0283-move-zeroes](https://github.com/umar5252-g/DSA-Workbench/tree/master/0283-move-zeroes) |
 ## Binary Search
 |  |
 | ------- |
@@ -50,4 +51,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2390-removing-stars-from-a-string](https://github.com/umar5252-g/DSA-Workbench/tree/master/2390-removing-stars-from-a-string) |
+## Two Pointers
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/umar5252-g/DSA-Workbench/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
