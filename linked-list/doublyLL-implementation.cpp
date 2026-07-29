@@ -32,6 +32,16 @@ class DoublyList{
       head = newNode;
     }
   }
+  void push_back(int val){
+     Node* newNode = new Node(val);
+    if(head==NULL){
+     head=tail=newNode;
+    }
+    tail->next = newNode;
+    newNode->prev = tail;
+    tail = newNode;
+    
+  }
 
   void print_all(){
     Node* tempNode = head;
@@ -51,8 +61,7 @@ int main (){ ;
   ll.push_front(1);
   ll.push_front(2);
   ll.push_front(3);
-  ll.push_front(4);
-
+  ll.push_back(4);
   ll.print_all();
 
   return 0;
