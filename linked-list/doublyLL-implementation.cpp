@@ -43,6 +43,32 @@ class DoublyList{
     
   }
 
+  void pop_front(){
+    if(head == NULL){
+      cout<<"List is empty \n";
+      return;
+    }
+    Node* temp = head;
+    head = head->next;
+    head->prev = NULL;
+    delete temp;
+
+  }
+
+  void pop_back(){
+    if(head == NULL){
+      cout<<"List is empty \n";
+      return;
+    }
+    // if(head->next = NULL ){
+    //   delete head;
+    // }
+    Node* temp = tail;
+    tail = tail->prev;
+    delete temp;
+
+
+  }
   void print_all(){
     Node* tempNode = head;
     cout<<"NULL <=> ";
