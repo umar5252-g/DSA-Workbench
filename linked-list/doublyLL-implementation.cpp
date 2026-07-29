@@ -50,8 +50,12 @@ class DoublyList{
     }
     Node* temp = head;
     head = head->next;
-    head->prev = NULL;
+    if(head != NULL){
+      head->prev = NULL;
+    }
+    temp->next = NULL;
     delete temp;
+
 
   }
 
@@ -60,11 +64,12 @@ class DoublyList{
       cout<<"List is empty \n";
       return;
     }
-    // if(head->next = NULL ){
-    //   delete head;
-    // }
     Node* temp = tail;
     tail = tail->prev;
+    if(tail != NULL){
+      tail->next = NULL;
+    }   
+    temp->prev = NULL;
     delete temp;
 
 
