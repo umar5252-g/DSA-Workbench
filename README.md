@@ -15,11 +15,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/umar5252-g/DSA-Workbench/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/umar5252-g/DSA-Workbench/tree/master/0021-merge-two-sorted-lists) |
 | [0203-remove-linked-list-elements](https://github.com/umar5252-g/DSA-Workbench/tree/master/0203-remove-linked-list-elements) |
+| [0342-power-of-four](https://github.com/umar5252-g/DSA-Workbench/tree/master/0342-power-of-four) |
 ## Math
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/umar5252-g/DSA-Workbench/tree/master/0002-add-two-numbers) |
 | [0292-nim-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0292-nim-game) |
+| [0342-power-of-four](https://github.com/umar5252-g/DSA-Workbench/tree/master/0342-power-of-four) |
 ## Hash Table
 |  |
 | ------- |
@@ -73,4 +75,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0292-nim-game) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0342-power-of-four](https://github.com/umar5252-g/DSA-Workbench/tree/master/0342-power-of-four) |
 <!---LeetCode Topics End-->
