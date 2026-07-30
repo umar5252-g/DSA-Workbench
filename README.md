@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/umar5252-g/DSA-Workbench/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/umar5252-g/DSA-Workbench/tree/master/0070-climbing-stairs) |
 | [0292-nim-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0292-nim-game) |
 | [0342-power-of-four](https://github.com/umar5252-g/DSA-Workbench/tree/master/0342-power-of-four) |
 ## Hash Table
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/umar5252-g/DSA-Workbench/tree/master/0005-longest-palindromic-substring) |
+| [0070-climbing-stairs](https://github.com/umar5252-g/DSA-Workbench/tree/master/0070-climbing-stairs) |
 ## Brainteaser
 |  |
 | ------- |
@@ -79,4 +81,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0342-power-of-four](https://github.com/umar5252-g/DSA-Workbench/tree/master/0342-power-of-four) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/umar5252-g/DSA-Workbench/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
