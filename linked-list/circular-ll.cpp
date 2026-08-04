@@ -17,11 +17,27 @@ class circularList {
   Node* tail;
 
   public:
-  
-circularList(){
+
+ circularList(){
   head = tail = NULL;
   }
+  void insertAtHead(int val){
+  Node* newNode = new Node(val);
+  if(head == NULL){
+    head = newNode;
+    tail->next = head;
+  }
+  else{
+    newNode->next = head;
+    head = newNode;
+    tail->next = head;
+  }
+ }
+
+ 
 };
+
+
 int main (){ ;
   
   return 0;
