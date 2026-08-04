@@ -10,9 +10,16 @@ class Node {
     data = val;
     next = NULL;
   }
-
-
 };
+
+class circularList {
+  public:
+  Node*head;
+  Node* tail;
+circularList(){
+  head = tail = NULL;
+  }
+}
 int main (){ ;
   
   return 0;
