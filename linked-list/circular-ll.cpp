@@ -33,6 +33,20 @@ void insertAtHead(int val){
   }
  }
 
+void insertAtTail (int val){
+  Node* newNode = new Node (val);
+
+  if(head== NULL) {
+    head = tail = newNode;
+  }
+  else{
+    tail->next = newNode;
+    tail = newNode;
+    tail->next = head;
+
+  }
+} 
+
  void print_all(){
   if(head==NULL) return;
   cout<<head->data<<"->";
@@ -41,8 +55,10 @@ void insertAtHead(int val){
     cout<<temp->data<<"->";
     temp = temp->next;
   }
-  cout<<temp->data<<"->";
+  cout<<temp->data<<endl;
  }
+
+
 };
 
 
@@ -51,6 +67,7 @@ int main (){ ;
   ll.insertAtHead(1);
   ll.insertAtHead(2);
   ll.insertAtHead(3);
+  ll.insertAtTail(0);
   ll.print_all();
   return 0;
 }
