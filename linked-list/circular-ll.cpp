@@ -41,9 +41,9 @@ void insertAtTail (int val){
     tail->next = head;
   }
   else{
+    newNode->next = head;
     tail->next = newNode;
     tail = newNode;
-    tail->next = head;
 
   }
 } 
@@ -65,10 +65,10 @@ void insertAtTail (int val){
 
 int main (){ ;
   circularList ll;
-  ll.insertAtHead(1);
-  ll.insertAtHead(2);
-  ll.insertAtHead(3);
-  ll.insertAtTail(0);
+  ll.insertAtTail(1);
+  ll.insertAtTail(2);
+  ll.insertAtTail(3);
+
   ll.print_all();
   return 0;
 }
