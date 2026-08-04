@@ -13,13 +13,15 @@ class Node {
 };
 
 class circularList {
-  public:
   Node*head;
   Node* tail;
+
+  public:
+  
 circularList(){
   head = tail = NULL;
   }
-}
+};
 int main (){ ;
   
   return 0;
