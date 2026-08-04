@@ -38,6 +38,7 @@ void insertAtTail (int val){
 
   if(head== NULL) {
     head = tail = newNode;
+    tail->next = head;
   }
   else{
     tail->next = newNode;
