@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/umar5252-g/DSA-Workbench/tree/master/0070-climbing-stairs) |
 | [0292-nim-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0292-nim-game) |
 | [0342-power-of-four](https://github.com/umar5252-g/DSA-Workbench/tree/master/0342-power-of-four) |
+| [0877-stone-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0877-stone-game) |
 ## Hash Table
 |  |
 | ------- |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/umar5252-g/DSA-Workbench/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/umar5252-g/DSA-Workbench/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/umar5252-g/DSA-Workbench/tree/master/0022-generate-parentheses) |
 | [2390-removing-stars-from-a-string](https://github.com/umar5252-g/DSA-Workbench/tree/master/2390-removing-stars-from-a-string) |
 ## Sliding Window
 |  |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/umar5252-g/DSA-Workbench/tree/master/0004-median-of-two-sorted-arrays) |
 | [0283-move-zeroes](https://github.com/umar5252-g/DSA-Workbench/tree/master/0283-move-zeroes) |
+| [0877-stone-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0877-stone-game) |
 ## Binary Search
 |  |
 | ------- |
@@ -68,7 +71,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/umar5252-g/DSA-Workbench/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/umar5252-g/DSA-Workbench/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/umar5252-g/DSA-Workbench/tree/master/0070-climbing-stairs) |
+| [0877-stone-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0877-stone-game) |
 ## Brainteaser
 |  |
 | ------- |
@@ -77,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0292-nim-game) |
+| [0877-stone-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0877-stone-game) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -85,4 +91,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/umar5252-g/DSA-Workbench/tree/master/0070-climbing-stairs) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/umar5252-g/DSA-Workbench/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
