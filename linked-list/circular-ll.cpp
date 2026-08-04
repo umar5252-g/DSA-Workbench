@@ -61,10 +61,30 @@ void deleteAtHead(){
   Node* temp = head;
   head= head->next;
   tail->next = head;
+
   temp->next = NULL;
   delete temp;
 }
 
+}
+
+void deleteAtTail(){
+  if(head==NULL)return;
+  if(head==tail){
+    delete head;
+    head= tail = NULL;
+  }
+  else{
+    Node* temp = tail;
+    Node* newTail = head;
+    while(newTail->next != tail){
+      newTail = newTail->next;
+    }
+    newTail->next = head;
+    temp->next = NULL;
+    tail = newTail;
+    delete temp;
+  }
 }
  void print_all(){
   if(head==NULL) return;
@@ -82,9 +102,12 @@ void deleteAtHead(){
 
 
 int main (){ ;
-  circularList ll;
   ll.insertAtTail(1);
-  ll.deleteAtHead();
+  ll.insertAtTail(2);
+  ll.insertAtTail(3);
+  ll.deleteAtTail();
+  ll.deleteAtTail();
+  ll.deleteAtTail();
   ll.print_all();
   return 0;
 }
