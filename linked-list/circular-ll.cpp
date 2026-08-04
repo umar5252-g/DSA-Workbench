@@ -48,6 +48,24 @@ void insertAtTail (int val){
   }
 } 
 
+void deleteAtHead(){
+  if(head==NULL){
+    return;
+  }
+ if(head == tail){
+  delete head;
+  head = tail = NULL;
+
+ }
+ else{  
+  Node* temp = head;
+  head= head->next;
+  tail->next = head;
+  temp->next = NULL;
+  delete temp;
+}
+
+}
  void print_all(){
   if(head==NULL) return;
   cout<<head->data<<"->";
@@ -66,9 +84,7 @@ void insertAtTail (int val){
 int main (){ ;
   circularList ll;
   ll.insertAtTail(1);
-  ll.insertAtTail(2);
-  ll.insertAtTail(3);
-
+  ll.deleteAtHead();
   ll.print_all();
   return 0;
 }
