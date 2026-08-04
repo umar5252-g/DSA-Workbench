@@ -102,6 +102,7 @@ void deleteAtTail(){
 
 
 int main (){ ;
+  circularList ll;
   ll.insertAtTail(1);
   ll.insertAtTail(2);
   ll.insertAtTail(3);
