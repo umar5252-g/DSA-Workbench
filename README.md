@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/umar5252-g/DSA-Workbench/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/umar5252-g/DSA-Workbench/tree/master/0021-merge-two-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/umar5252-g/DSA-Workbench/tree/master/0025-reverse-nodes-in-k-group) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/umar5252-g/DSA-Workbench/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/umar5252-g/DSA-Workbench/tree/master/0138-copy-list-with-random-pointer) |
 | [0203-remove-linked-list-elements](https://github.com/umar5252-g/DSA-Workbench/tree/master/0203-remove-linked-list-elements) |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/umar5252-g/DSA-Workbench/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/umar5252-g/DSA-Workbench/tree/master/0021-merge-two-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/umar5252-g/DSA-Workbench/tree/master/0025-reverse-nodes-in-k-group) |
 | [0203-remove-linked-list-elements](https://github.com/umar5252-g/DSA-Workbench/tree/master/0203-remove-linked-list-elements) |
 | [0342-power-of-four](https://github.com/umar5252-g/DSA-Workbench/tree/master/0342-power-of-four) |
 ## Math
