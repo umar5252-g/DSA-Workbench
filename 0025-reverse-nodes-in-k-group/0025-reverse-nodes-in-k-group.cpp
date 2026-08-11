@@ -31,10 +31,11 @@ public:
 
             temp->next = prevNode;
             prevNode = temp;
+            head = prevNode;
             temp = next;
 
             count++;
         }
-        return prevNode;
+        return head;
     }
 };
