@@ -50,14 +50,13 @@ public:
     delete newNode;
   }
 
-  void front()
+  int front()
   {
-    if (head == NULL)
+    if (empty())
     {
-      cout << "queue is empty" << endl;
+      cout << "LL is empty" << endl;
     }
-
-    cout << head->data << endl;
+    return head->data;
   }
   bool empty()
   {
