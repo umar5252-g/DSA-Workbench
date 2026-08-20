@@ -29,15 +29,14 @@ public:
   {
     Node *newNode = new Node(val);
 
-    if (head == NULL)
+    if (empty())
     {
       head = tail = newNode;
 
       return;
     }
     tail->next = newNode;
-    tail = tail->next;
-    tail->next = NULL;
+    tail = newNode;
   }
   void pop()
   {
