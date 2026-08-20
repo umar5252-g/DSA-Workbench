@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/umar5252-g/DSA-Workbench/tree/master/0070-climbing-stairs) |
 | [0292-nim-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0292-nim-game) |
 | [0342-power-of-four](https://github.com/umar5252-g/DSA-Workbench/tree/master/0342-power-of-four) |
+| [0556-next-greater-element-iii](https://github.com/umar5252-g/DSA-Workbench/tree/master/0556-next-greater-element-iii) |
 | [0877-stone-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0877-stone-game) |
 ## Hash Table
 |  |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/umar5252-g/DSA-Workbench/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/umar5252-g/DSA-Workbench/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/umar5252-g/DSA-Workbench/tree/master/0022-generate-parentheses) |
+| [0556-next-greater-element-iii](https://github.com/umar5252-g/DSA-Workbench/tree/master/0556-next-greater-element-iii) |
 | [2390-removing-stars-from-a-string](https://github.com/umar5252-g/DSA-Workbench/tree/master/2390-removing-stars-from-a-string) |
 ## Sliding Window
 |  |
@@ -49,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/umar5252-g/DSA-Workbench/tree/master/0004-median-of-two-sorted-arrays) |
+| [0042-trapping-rain-water](https://github.com/umar5252-g/DSA-Workbench/tree/master/0042-trapping-rain-water) |
 | [0283-move-zeroes](https://github.com/umar5252-g/DSA-Workbench/tree/master/0283-move-zeroes) |
 | [0877-stone-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0877-stone-game) |
 ## Binary Search
@@ -62,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/umar5252-g/DSA-Workbench/tree/master/0042-trapping-rain-water) |
 | [2390-removing-stars-from-a-string](https://github.com/umar5252-g/DSA-Workbench/tree/master/2390-removing-stars-from-a-string) |
 ## Simulation
 |  |
@@ -71,12 +75,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/umar5252-g/DSA-Workbench/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/umar5252-g/DSA-Workbench/tree/master/0042-trapping-rain-water) |
 | [0283-move-zeroes](https://github.com/umar5252-g/DSA-Workbench/tree/master/0283-move-zeroes) |
+| [0556-next-greater-element-iii](https://github.com/umar5252-g/DSA-Workbench/tree/master/0556-next-greater-element-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/umar5252-g/DSA-Workbench/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/umar5252-g/DSA-Workbench/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/umar5252-g/DSA-Workbench/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/umar5252-g/DSA-Workbench/tree/master/0070-climbing-stairs) |
 | [0877-stone-game](https://github.com/umar5252-g/DSA-Workbench/tree/master/0877-stone-game) |
 ## Brainteaser
@@ -108,4 +115,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/umar5252-g/DSA-Workbench/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/umar5252-g/DSA-Workbench/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
