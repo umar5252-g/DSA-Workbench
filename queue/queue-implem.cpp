@@ -31,8 +31,8 @@ public:
 
     if (head == NULL)
     {
-      head = newNode;
-      tail = newNode;
+      head = tail = newNode;
+
       return;
     }
     tail->next = newNode;
