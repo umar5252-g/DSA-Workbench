@@ -24,7 +24,34 @@ public:
   {
     head = tail = NULL;
   }
+
+  void push(int val)
+  {
+    Node *newNode = new Node(val);
+
+    if (head == NULL)
+    {
+      head = newNode;
+      tail = newNode;
+      return;
+    }
+    tail->next = newNode;
+    tail = tail->next;
+    tail->next = NULL;
+  }
+  void pop()
+  {
+    if (head == NULL)
+    {
+      cout << "queue is empty" << endl;
+    }
+
+    Node *newNode = head;
+    head = head->next;
+    newNode = NULL;
+  }
 };
+
 int main()
 {
   ;
