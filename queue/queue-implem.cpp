@@ -43,12 +43,22 @@ public:
   {
     if (head == NULL)
     {
-      cout << "queue is empty" << endl;
+      cout << "queue is empty nothing to pop" << endl;
     }
 
     Node *newNode = head;
     head = head->next;
     newNode = NULL;
+  }
+
+  void front()
+  {
+    if (head == NULL)
+    {
+      cout << "queue is empty" << endl;
+    }
+
+    cout << head->data << endl;
   }
 };
 
