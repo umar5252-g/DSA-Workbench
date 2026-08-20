@@ -40,14 +40,14 @@ public:
   }
   void pop()
   {
-    if (head == NULL)
+    if (empty())
     {
-      cout << "queue is empty nothing to pop" << endl;
+      cout << "LL is empty" << endl;
     }
 
     Node *newNode = head;
     head = head->next;
-    newNode = NULL;
+    delete newNode;
   }
 
   void front()
