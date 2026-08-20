@@ -1,77 +1,78 @@
 #include <iostream>
 using namespace std;
+#include <queue>
 
-class Node
-{
-public:
-  int data;
-  Node *next;
+// class Node
+// {
+// public:
+//   int data;
+//   Node *next;
 
-  Node(int val)
-  {
-    data = val;
-    next = NULL;
-  }
-};
+//   Node(int val)
+//   {
+//     data = val;
+//     next = NULL;
+//   }
+// };
 
-class queue
-{
-  Node *head;
-  Node *tail;
+// class queue
+// {
+//   Node *head;
+//   Node *tail;
 
-public:
-  queue()
-  {
-    head = tail = NULL;
-  }
+// public:
+//   queue()
+//   {
+//     head = tail = NULL;
+//   }
 
-  void push(int val)
-  {
-    Node *newNode = new Node(val);
+//   void push(int val)
+//   {
+//     Node *newNode = new Node(val);
 
-    if (empty())
-    {
-      head = tail = newNode;
+//     if (empty())
+//     {
+//       head = tail = newNode;
 
-      return;
-    }
-    tail->next = newNode;
-    tail = newNode;
-  }
-  void pop()
-  {
-    if (empty())
-    {
-      cout << "LL is empty" << endl;
-    }
+//       return;
+//     }
+//     tail->next = newNode;
+//     tail = newNode;
+//   }
+//   void pop()
+//   {
+//     if (empty())
+//     {
+//       cout << "LL is empty" << endl;
+//     }
 
-    Node *newNode = head;
-    head = head->next;
-    delete newNode;
-  }
+//     Node *newNode = head;
+//     head = head->next;
+//     delete newNode;
+//   }
 
-  int front()
-  {
-    if (empty())
-    {
-      cout << "LL is empty" << endl;
-    }
-    return head->data;
-  }
-  bool empty()
-  {
-    if (head == NULL)
-    {
-      return true;
-    }
-    else
-      return false;
-  }
-};
+//   int front()
+//   {
+//     if (empty())
+//     {
+//       cout << "LL is empty" << endl;
+//     }
+//     return head->data;
+//   }
+//   bool empty()
+//   {
+//     if (head == NULL)
+//     {
+//       return true;
+//     }
+//     else
+//       return false;
+//   }
+// };
 
 int main()
 {
-  queue q;
+  queue<int> q;
   q.push(1);
   q.push(2);
   q.push(3);
