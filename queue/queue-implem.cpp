@@ -83,8 +83,9 @@ int main()
   //   q.pop();
   // }
 
-  deque<int> dq; // dq means double ended queue in this data structure we can do push back push front
+  deque<int> dq; // deque means double ended queue. In this data structure we can do push back push front
                  // pop front and pop back
+                 // also we didnt implement the deque data structure coz its already availale in stl library
 
   dq.push_back(1);
   dq.push_back(2);
