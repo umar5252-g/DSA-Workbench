@@ -72,16 +72,29 @@ using namespace std;
 
 int main()
 {
-  queue<int> q;
-  q.push(1);
-  q.push(2);
-  q.push(3);
-  q.push(4);
-  while (!q.empty())
-  {
-    cout << q.front() << " ";
-    q.pop();
-  }
+  // queue<int> q;
+  // q.push(1);
+  // q.push(2);
+  // q.push(3);
+  // q.push(4);
+  // while (!q.empty())
+  // {
+  //   cout << q.front() << " ";
+  //   q.pop();
+  // }
+
+  deque<int> dq; // dq means double ended queue in this data structure we can do push back push front
+                 // pop front and pop back
+
+  dq.push_back(1);
+  dq.push_back(2);
+  dq.push_back(3);
+  dq.push_front(4);
+  dq.pop_front();
+  dq.pop_back();
+
+  cout << "front: " << dq.front() << " back: " << dq.back();
+
   cout << endl;
 
   return 0;
